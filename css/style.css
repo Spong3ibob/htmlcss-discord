@@ -7,17 +7,6 @@
 }
 /* debug */
 
-.debug .row{
-    background-color: white;
-}
-.debug .col-big{
-    background-color: #1e90ff;
-    height: 495px;
-}
-.debug .col-small{
-    background-color: #ffc0cb;
-    height: 495px;  
-}
 .debug .col{
     background-color: #228b22;
     height: 900px;
@@ -162,6 +151,9 @@ section{
 }
 .col{
     width: 100%;
+}
+.row{
+    text-align: center;
 }
 /* footer */
 .footer-big{
