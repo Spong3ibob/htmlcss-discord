@@ -66,6 +66,14 @@
     padding: 9px;
     border-radius: 20px;
 }
+h2{
+    font-size: 50px;
+}
+.testo{
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 150%;
+}
 /* nav */
 header{
     background-color: #255EE9;
@@ -140,7 +148,7 @@ nav{
 }
 /* main */
 section:nth-child(2n){
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 section{
     padding: 50px 0;
