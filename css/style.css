@@ -155,11 +155,19 @@ section{
 .row{
     text-align: center;
 }
-/* footer */
-.footer-big{
-    padding-top: 10px;
-    padding-bottom: 40px;
+.stars{
+    justify-content: space-between;
 }
+.dowload{
+    color: white;
+    background-color: #7289DA;
+    margin: 5px;
+}
+.bottone-dowload{
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+/* footer */
 .col1{
     width: 30%;
 }
