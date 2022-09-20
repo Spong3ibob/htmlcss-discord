@@ -7,15 +7,6 @@
 }
 /* debug */
 
-.debug .header-big{ 
-    background-color: #00008b;
-    height: 500px;
-}
-.debug .slogan{
-    background-color: #ee82ee;
-    height: 400px;
-    width: 900px;
-}
 .debug .row{
     background-color: white;
 }
@@ -71,11 +62,15 @@
 .row{
     display: flex; 
 }
+.bottom{
+    padding: 9px;
+    border-radius: 20px;
+}
 /* nav */
 header{
     background-color: #255EE9;
 }
-li{
+.link-nav{
     display: inline;
     padding: 0 20px;
 }
@@ -105,24 +100,43 @@ nav{
 }
 .accedi{
     color: black;
-    padding: 9px;
     background-color: white; 
-    border-radius: 20px;
 }
 
 /* header */
 .header-small{
     padding-top: 17px;
     margin-bottom: 16px;
-}
-.header-small{
     display: flex;
-    
 }
 .header-big{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(../css/img/jumbo.png);
+    height: 500px;
+    background-size: 100%; 
+}
+.intro{
+    text-align: center;
+}
+.titolo{
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 30px; 
+    font-size: 20px;
+}
+.descrizione{
+    color: white;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.scarica{
+    color: black;
+    background-color: white;
+    margin: 5px;
+}
+.browser{
+    color: white;
+    background-color: black;
+    margin: 5px;
 }
 /* main */
 section:nth-child(2n){
