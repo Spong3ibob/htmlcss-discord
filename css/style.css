@@ -63,6 +63,9 @@ h2{
     font-size: 15px;
     line-height: 150%;
 }
+i{
+    color: white;
+}
 /* nav */
 header{
     background-color: #255EE9;
@@ -168,8 +171,24 @@ section{
     padding-bottom: 125px;
 }
 /* footer */
+footer{
+    background-color: #23272a;
+}
 .col1{
     width: 30%;
+}
+.footer-col1{
+    color: #7289DA;s
+}
+.bandiera{
+    height: 20px;
+    padding: 3px;
+}
+.lingua{
+    color: white;
+}
+.inserimento-lingua{
+    display: flex;
 }
 .col2{
     width: 17.5%;
