@@ -1,0 +1,142 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* debug */
+.debug header{
+    background-color: #add8e6;
+}
+.debug .header-small{
+    background-color: #daa520;
+    height: 30px; 
+}
+.debug .header-big{ 
+    background-color: #00008b;
+    height: 500px;
+}
+.debug .slogan{
+    background-color: #ee82ee;
+    height: 400px;
+    width: 900px;
+}
+.debug .row{
+    background-color: white;
+}
+.debug .col-big{
+    background-color: #1e90ff;
+    height: 495px;
+}
+.debug .col-small{
+    background-color: #ffc0cb;
+    height: 495px;  
+}
+.debug .col{
+    background-color: #228b22;
+    height: 900px;
+}
+.debug footer{
+    background-color: #23272a;
+}
+.debug .col1{
+    background-color: #f08080;
+    height: 580px;
+}
+.debug .col2{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col3{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col4{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .col5{
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .row1{
+    background-color: #7fffd4;
+    height: 78px;
+}
+.debug .bottone{
+    background-color: #ffb6c1;
+    padding: 3px;
+}
+
+/* common */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex; 
+}
+
+/* header */
+.header-small{
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+.header-small{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main */
+section:nth-child(2n){
+    background-color: #d3d3d3;
+}
+section{
+    padding: 50px 0;
+}
+
+.col-big{
+    width: 60%;
+}
+.col-small{
+    width: 40%;
+}
+.col{
+    width: 100%;
+}
+/* footer */
+.footer-big{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.col1{
+    width: 30%;
+}
+.col2{
+    width: 17.5%;
+}
+.col3{
+    width: 17.5%;
+}
+.col4{
+    width: 17.5%;
+}
+.col5{
+    width: 17.5%;
+}
+.footer-small{
+    padding-top: 30px;
+    justify-content: end;  
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
